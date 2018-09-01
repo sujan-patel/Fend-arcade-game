@@ -169,10 +169,10 @@ var Engine = (function(global) {
                 for (col = 0; col < numCols; col++) {
                     ctx.drawImage(Resources.get(rowImages[row]), col * 101, row * 83);
                     // Text to display over the game board
-                    ctx.fillStyle = "red";
+                    ctx.fillStyle = "white";
                     ctx.font = "40px Comic Sans MS";
                     ctx.textAlign = "center";
-                    ctx.fillText("Let's Play Frogger!", canvas.width/2, canvas.height/5.5);
+                    ctx.fillText("Let's Play Game!", canvas.width/2, canvas.height/5.5);
                     ctx.fillStyle = "red";
                     ctx.font = "20px Comic Sans MS";
                     ctx.textAlign = "center";
